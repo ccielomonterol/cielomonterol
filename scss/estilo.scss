@@ -1,0 +1,150 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(106, 167, 238);
+}
+/*MOBILE*/
+ @media only screen and (max-width:7) {
+     
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 5rem;
+    margin: auto;
+}
+img{
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+.nav {
+    position: fixed;
+    margin-bottom: 25px;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    height: 100%;
+    background-color: #F6E3CA;
+  }
+  
+  li {
+    background-color: #F6E3CA;
+    display: inline;
+    margin-right: 10px;
+    
+  }
+  
+  a {
+    color: burlywood;
+    padding: 0 4px;
+    text-decoration: none;
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    background-color: white;
+    color: #D7C8B6;
+  }
+
+  .bienvenida {
+      display: flex;
+      flex-flow: row nowrap;
+      height: 650px;
+  }
+  .bienvenida .tituloMain {
+      width: 50%;
+      padding: 25px;
+      margin: auto;
+  }
+  .bienvenida h1:hover {
+       color: burlywood;
+  }
+
+  .bienvenida .imgMain{
+      width: 50%;
+      max-height: 500px;
+      margin: auto;
+  }
+  .bienvenida .imgMain img {
+      width: 100%;
+  }
+  .presentacion {
+      margin: 25px;
+  }
+  .presentacion p {
+      margin: 35px;
+      padding: 35px;
+      text-align: justify;
+      color: azure;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      font-weight: 500;
+  }
+  .skills {
+      display: flex;
+      flex-flow: row nowrap;
+  }
+  .skills div {
+      width: 20%;
+      margin: 15px;
+      padding: 25px;
+      border: burlywood 1px solid;
+  }
+  .skills div p {
+      color: burlywood;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      font-weight: 400;
+
+  }
+  .habilidades {
+      background-color: azure;
+      height: 700px;
+  }
+  .habilidades h4 {
+      font-family:  'Montserrat', sans-serif;
+      font-size: 3rem;
+      font-weight: 600;
+      font-style: italic;
+      margin: 25px;
+      padding: 25px;
+      text-align: center;
+      color: burlywood;
+  }
+  .mail {
+      height: 400px;
+      margin: 25px;
+      padding: 25px;
+  }
+  .mail p {
+    color: burlywood;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+    margin: 55px;
+    padding: 35px;
+
+  }

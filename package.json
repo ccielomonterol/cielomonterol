@@ -1,15 +1,22 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Portfolio Cielo ",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
   },
-  "repository": {
-    "type": "git",
-    "url": "ccielomonterol"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm 	run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccielomonterol/cielomonterol/issues"
+  },
+  "homepage": "https://github.com/ccielomonterol/cielomonterol#readme"
 }
